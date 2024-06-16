@@ -1,5 +1,5 @@
 # Yoo Techies
-# I'm taking my first Tutorial on Java, Let's see how my learning goes 🙂↕
+# Am taking my first Tutorial on Java, Let's see how my learning goes 🙂↕
 
 ## What is Java?
 # Java is an Object oriented programming (OOP) language, Class based, robust and secured (Java is also a platform)
@@ -10,9 +10,9 @@
 
 ## https://www.oracle.com/ng/java/technologies/downloads/
 
-## Install and make sure Environmental Variable are been register to your PC/ Mac_Os
+## Install and make sure Enviromental Variable are been register to your PC/MacOs
 
-## Choose Your choice editor, I will recommend Vscode, Intellij Idea, Netbeans , any more choice
+## Choose Your choice editor, I will recommed Vscode, Intellij Idea, Netbeans , any more choice
 
 
 
@@ -31,7 +31,7 @@ public class Code{
 ## Learn to run with Java Compiler as far as java jdk is installed into your system,
 ## Open command prompt and locate your file directory then run javac sample.java
 
-## then a "sample.class" java file will be created, This is because Java compiler runs it in bytecodes
+## then a sample.class java file will be created, This is because Java complier runs it in bytecodes
 
 ## Next, run java sample.java
 
@@ -40,8 +40,3 @@ public class Code{
 ## A Java Program should always have an access modifier 
 ## An access modifier is a special keyword that determines if other classes and method in java program can access a class or method
 ## Access modifiers are (public,private)
-
-## Variables
-
-## A variable is a memory location for a value, it can also be said as "A variable is a container that stores data"
-### "int" is a keyword used to store an integer variable 

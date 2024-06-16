@@ -1,3 +1,4 @@
+package src;
 public class condit{
     public static void main(String[] args) {
         int num1 = 5;
