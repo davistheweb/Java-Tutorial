@@ -63,4 +63,5 @@ public class Code{
 ### 5) float : Which takes 4 bytes.
 ### 6) double : Which takes 8 bytes.
 ### strings
-### 7) char: Which takes 2 bytes and are used to store single character ("A","B","C".).
+### 7) char: Which takes 2 bytes and are used to store single character ("A","B","C".) as Range.
+### 8) boolean: Which takes 1 byte of value [True/False].
