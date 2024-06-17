@@ -65,3 +65,6 @@ public class Code{
 ### strings
 ### 7) char: Which takes 2 bytes and are used to store single character ("A","B","C".) as Range.
 ### 8) boolean: Which takes 1 byte of value [True/False].
+
+## Reference Type.
+

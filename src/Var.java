@@ -13,18 +13,20 @@ public static void main(String[] args){
     System.out.println(RdInt);
     //Coping of variable
     //Example
-    int originVar = 40;
-    int newCopy = originVar;
+    short sr = -32000;
+    int origin_Var = 40;
+    int newCopy = origin_Var;
     System.out.println(newCopy);
 
-    byte AcctBal = 40;
-    long viewsCount = 392_192_348_29L; // L is a suffix used to specifies that the data is a 'long' datatype because java usually sees it as "int" datatype
+    byte AcctBal = 127;
+    long viewsCount = 392_192_348_290L; // L is a suffix used to specifies that the data is a 'long' datatype because java usually sees it as "int" datatype
 
     System.out.println(viewsCount);
-    float price = 45.04F;
+    double price = 45.04;
     char character = 'M';
     System.out.println(character);
     boolean IsMale = true;
     boolean IsAdult = false;
-}
-}
+    System.out.println(IsAdult);}}
+
+
