@@ -1,7 +1,7 @@
 package src;
 
 public class Var {
-public static void main(String[] args){
+public static void main(String[] args) {
     int age = 18; // Defined an integer variable "age" with a given value "18"
     System.out.println(age);
     age = 20; // changed the value of age after the first printing
@@ -19,6 +19,7 @@ public static void main(String[] args){
     System.out.println(newCopy);
 
     byte AcctBal = 127;
+    char symbol = '%';
     long viewsCount = 392_192_348_290L; // L is a suffix used to specifies that the data is a 'long' datatype because java usually sees it as "int" datatype
 
     System.out.println(viewsCount);
@@ -27,6 +28,11 @@ public static void main(String[] args){
     System.out.println(character);
     boolean IsMale = true;
     boolean IsAdult = false;
-    System.out.println(IsAdult);}}
+    System.out.println(IsAdult);
+    int x = 3;
+    System.out.println("My number is "+x);
+
+    }
+}
 
 
