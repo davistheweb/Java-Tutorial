@@ -67,4 +67,8 @@ public class Code{
 ### 8) boolean: Which takes 1 byte of value [True/False].
 
 ## Reference Type.
+## String: Which takes any amount of value
+ 
+## Find Scanner usage in InputUsage.java
 
+## Expressions in Java(express.java)
