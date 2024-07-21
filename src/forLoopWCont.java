@@ -1,4 +1,4 @@
-package src;
+//package src;
 
 public class forLoopWCont {
     public static void main(String[] args) {

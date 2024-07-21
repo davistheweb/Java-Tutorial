@@ -1,4 +1,4 @@
-package src;
+//package src;
 import java.util.Scanner;
 public class WhileLoopExample {
     public static void main(String[] args) {

@@ -1,15 +1,11 @@
 public class swap {
     public static void main(String[] args) {
-        // Swapping variables in Java goes this way
-        //Initialize an empty variable
-        String emptyVar = null;
-        String FirstVar = "John";
-        String SecondVar = "James";
-        //Swapping values
-        emptyVar = SecondVar;
-        SecondVar = FirstVar;
-        FirstVar = emptyVar;
-        System.out.println("FirstVar is:"+FirstVar);
-        System.out.println("SecondVar is: "+SecondVar);
+        for (int i = 84; i>1; i--){
+            System.out.println("Mul for " + i + "\n");
+            for (int j = 84; j>=1; j--){
+                System.out.println(i+ "x" + j + "="+ i * j);
+            }
+        }
     }
 }
+

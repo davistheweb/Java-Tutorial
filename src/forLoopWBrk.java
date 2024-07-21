@@ -1,4 +1,4 @@
-package src;
+//package src;
 public class forLoopWBrk {
     public static void main(String[] args) {
         for(int j = 0; j<5; j++){

@@ -6,7 +6,7 @@ High scoring points:
 Number of semesters
 Number of years*/
 /*
-// This Project was written by @Josiah Davis Chimzuruoke (@davistheweb) ---------- To make use of this project, Get a licence key/ Allowance from https://github.com/davisthweb // */
+// This Project was written by @Josiah Davis Chimzuruoke (@davistheweb) on 10/07/2024 ---------- To make use of this project, Get a licence key/ Allowance from https://github.com/davisthweb // */
 // Remove package when running file !
 package src;
 import javax.swing.JOptionPane;
@@ -51,6 +51,37 @@ public final class GradePointCalculatorForStudent_S {
         }
 
         final double cumulativeGPA = StudentTotalPoints / StudentTotalCredits;
-        JOptionPane.showMessageDialog(null," GPA: " + cumulativeGPA, "***___*** Program/Calculation Done!", JOptionPane.INFORMATION_MESSAGE);
+        final double finalCumulativeGPA = Math.round(cumulativeGPA);
+        //String FinalGPA = String.valueOf(cumulativeGPA);
+          /*switch (FinalGPA){
+            case "4.0":
+                JOptionPane.showMessageDialog(null," GPA: " + cumulativeGPA + "=", "***___*** Program/Calculation Done!", JOptionPane.INFORMATION_MESSAGE);
+                break;
+        }*/
+       if(finalCumulativeGPA == 4.0){
+           JOptionPane.showMessageDialog(null," GPA Letter grade is : " +"A and GPA point is " + finalCumulativeGPA, "***___*** Program/Calculation Done!", JOptionPane.INFORMATION_MESSAGE);
+       } else if (finalCumulativeGPA < 4.0 && finalCumulativeGPA >3.3 ) {
+           JOptionPane.showMessageDialog(null," GPA Letter grade is : " +"A- and GPA point is " + finalCumulativeGPA, "***___*** Program/Calculation Done!", JOptionPane.INFORMATION_MESSAGE);
+       } else if (finalCumulativeGPA > 3.0 && finalCumulativeGPA <=3.3) {
+           JOptionPane.showMessageDialog(null," GPA Letter grade is : " +"B+ and GPA point is " + finalCumulativeGPA, "***___*** Program/Calculation Done!", JOptionPane.INFORMATION_MESSAGE);
+       } else if (finalCumulativeGPA == 3.0) {
+           JOptionPane.showMessageDialog(null," GPA Letter grade is : " +"B and GPA point is " + finalCumulativeGPA, "***___*** Program/Calculation Done!", JOptionPane.INFORMATION_MESSAGE);
+       } else if (finalCumulativeGPA < 3.0 && finalCumulativeGPA>= 2.0) {
+           JOptionPane.showMessageDialog(null," GPA Letter grade is : " +"B- and GPA point is " + finalCumulativeGPA, "***___*** Program/Calculation Done!", JOptionPane.INFORMATION_MESSAGE);
+       } else if (finalCumulativeGPA > 2.0 && finalCumulativeGPA <= 2.3) {
+           JOptionPane.showMessageDialog(null," GPA Letter grade is : " +"C+ and GPA point is " + finalCumulativeGPA, "***___*** Program/Calculation Done!", JOptionPane.INFORMATION_MESSAGE);
+       } else if (finalCumulativeGPA == 2.0) {
+           JOptionPane.showMessageDialog(null," GPA Letter grade is : " +"C and GPA point is " + finalCumulativeGPA, "***___*** Program/Calculation Done!", JOptionPane.INFORMATION_MESSAGE);
+       }else if (finalCumulativeGPA > 1.3 && finalCumulativeGPA <= 1.7) {
+           JOptionPane.showMessageDialog(null," GPA Letter grade is : " +"C- and GPA point is " + finalCumulativeGPA, "***___*** Program/Calculation Done!", JOptionPane.INFORMATION_MESSAGE);
+       }else if (finalCumulativeGPA > 1.0 && finalCumulativeGPA<= 1.3) {
+           JOptionPane.showMessageDialog(null," GPA Letter grade is : " +"D+ and GPA point is " + finalCumulativeGPA, "***___*** Program/Calculation Done!", JOptionPane.INFORMATION_MESSAGE);
+       }else if (finalCumulativeGPA == 1.0) {
+           JOptionPane.showMessageDialog(null," GPA Letter grade is : " +"D and GPA point is " + finalCumulativeGPA, "***___*** Program/Calculation Done!", JOptionPane.INFORMATION_MESSAGE);
+       }else if (finalCumulativeGPA < 1.0) {
+           JOptionPane.showMessageDialog(null," GPA Letter grade is : " +"F and GPA point is " + finalCumulativeGPA, "***___*** Program/Calculation Done!", JOptionPane.INFORMATION_MESSAGE);
+       }
+
+
     }
 }
