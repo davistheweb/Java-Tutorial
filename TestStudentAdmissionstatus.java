@@ -1,6 +1,6 @@
 // Work done by Isaac Emmanuel chinweolu, MatNo: 22/5868
-import java.util.Scanner ; 
-public class testAdmissionstatus
+import java.util.Scanner ;
+class testAdmissionstatus
 {
 public static void main(String [] args)
 {
