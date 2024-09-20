@@ -4,13 +4,19 @@ public class NewKey {
     public static void main(String[] args) {
         class Car{
             String Name;
-            int model;
+            public static int model;
 
-            Car(String Name, int model){
+            Car(){
                 this.Name =Name;
                 this.model = model;
             }
+            public  int getmodel(){
+                return model;
+            }
+
         }
+        Car myCar = new Car();
+        System.out.println(myCar.getmodel());
 
     }
 
