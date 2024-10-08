@@ -1,4 +1,4 @@
-package src;
+//package src;
 
 import java.util.Scanner;
 
@@ -16,6 +16,6 @@ public class CheckNumberDivisibility {
         } else {
             System.out.println("The given number "+"("+number+")"+ " is not divisible by 5 and 11");
         }
-
+        readInput.close();
     }
 }

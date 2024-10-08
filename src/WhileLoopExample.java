@@ -1,4 +1,4 @@
-//package src;
+
 import java.util.Scanner;
 public class WhileLoopExample {
     public static void main(String[] args) {
@@ -15,5 +15,8 @@ public class WhileLoopExample {
         unit = readInput.nextInt();
     }
         System.out.println("The Sum is:"+ sum);
+        readInput.close();
     }
+
+    
 }

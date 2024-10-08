@@ -1,4 +1,4 @@
-package src;
+
 import java.util.Scanner;
 public class greaterThan {
     public static void main(String[] args){
@@ -17,5 +17,7 @@ public class greaterThan {
                 System.out.println("B is the greatest number");
         else
             System.out.println("C is the greatest number");
+
+            readUserInput.close();
     }
 }

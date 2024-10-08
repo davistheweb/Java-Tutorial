@@ -1,10 +1,8 @@
-package src;
-
 public class NewKey {
     public static void main(String[] args) {
         class Car{
             String Name;
-            public static int model;
+            public int model;
 
             Car(){
                 this.Name =Name;

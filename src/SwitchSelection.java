@@ -1,4 +1,4 @@
-package src;
+
 import java.util.Scanner;
 public class SwitchSelection {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src;
+//package src;
 
 import java.util.Scanner;
 
@@ -15,6 +15,6 @@ public class Factorial {
             n--;
         }
         System.out.println("The factorial of " + number +" is " + result);
-
+        read.close();
     }
 }

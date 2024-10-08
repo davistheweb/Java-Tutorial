@@ -8,7 +8,7 @@ Number of years*/
 /*
 // This Project was written by @Josiah Davis Chimzuruoke (@davistheweb) on 10/07/2024 ---------- To make use of this project, Get a licence key/ Allowance from https://github.com/davisthweb // */
 // Remove package when running file !
-package src;
+
 import javax.swing.JOptionPane;
 public final class GradePointCalculatorForStudent_S {
     public static void main(String[] args) {

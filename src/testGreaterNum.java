@@ -1,4 +1,4 @@
-package src;
+
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 public class testGreaterNum {
@@ -24,5 +24,7 @@ public class testGreaterNum {
         }
 
         JOptionPane.showMessageDialog(null,"Helloworld");
+
+        readInput.close();
     }
 }

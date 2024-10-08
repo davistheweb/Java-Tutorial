@@ -46,5 +46,7 @@ public class Student {
         System.out.println("\nName: " + student.getName());
         System.out.println("Age: " + student.getAge());
         System.out.println("Email: " + student.getEmail());
+
+        input.close();
     }
 }
